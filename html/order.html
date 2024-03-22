@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Place your Order</title>
+    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div class="container">
+    <div class="title">Place your Order</div>
+    
+    <form >
+        <div class="user-details">
+            <div class="input-box">
+                <span class="details">Name</span>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" id="email" name="email" placeholder="Enter your Email" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Address</span>
+                <input type="text" id="address" name="address" placeholder="Enter your Address" required>
+            </div>
+            
+            <div class="input-box">
+                <span class="details">Phone number</span>
+                <input type="text" id="number" name="number" placeholder="Enter your Phone number" required>
+            </div>
+        </div>
+        <div class="button">
+            <input type="submit" onclick="order()" value="submit">
+        </div>
+    </form>
+</div>
+
+<script src="../js/order.js"></script>
+</body>
+</html>
